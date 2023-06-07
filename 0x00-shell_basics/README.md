@@ -36,3 +36,5 @@
 *mkdir -p welcome/to/school* Creating multiple directories
 # 18. Life is a series of commas, not periods
 *ls -map* Write a command that lists all the files and directories of the current directory, separated by commas
+# 19. File type: School
+*file --mime-type school.mgc* Detect School data files
