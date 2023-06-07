@@ -4,3 +4,5 @@
 *ls* Display the content list of your current directory
 #2. There is no place like home
 *cd ../../root* Changes working directory to the user's home directory
+# 3. The long format
+*ls -l* Display current directory contents in a long format
