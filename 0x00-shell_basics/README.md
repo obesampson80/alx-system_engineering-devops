@@ -14,3 +14,5 @@
 *mkdir tmp/my_first_directory* A script that creates a directory named my first directory in the /tmp/ directory.
 # 7. Betty in my first directory
 *mv betty /tmp/my_first_directory*Move the file betty from /tmp/ to /tmp/my first directory.
+# 8. Bye bye Betty
+*rm /tmp/my_first_directory/betty* delete the file betty
