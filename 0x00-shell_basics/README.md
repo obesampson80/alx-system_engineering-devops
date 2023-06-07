@@ -28,3 +28,5 @@
 *ln -s /bin/ls __ls__* Creating a symbolic link in the current working directory
 # 14. Copy HTML files
 *cp -rua *html ../* Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+# 15. Let's move
+*mv [[:upper:]]* /tmp/u* Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u
