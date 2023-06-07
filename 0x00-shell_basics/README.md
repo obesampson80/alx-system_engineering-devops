@@ -6,3 +6,5 @@
 *cd ../../root* Changes working directory to the user's home directory
 # 3. The long format
 *ls -l* Display current directory contents in a long format
+# 4. Hidden files
+*ls -la* Display current directory contents, including hidden files (starting with .). Use the long format.
