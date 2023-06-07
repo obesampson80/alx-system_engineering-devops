@@ -10,3 +10,5 @@
 *ls -la* Display current directory contents, including hidden files (starting with .). Use the long format.
 # 5. I love numbers
 *ls -nla* Display current directory contents using digits only
+# 6. Welcome
+*mkdir tmp/my_first_directory* A script that creates a directory named my first directory in the /tmp/ directory.
