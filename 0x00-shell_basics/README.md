@@ -8,3 +8,5 @@
 *ls -l* Display current directory contents in a long format
 # 4. Hidden files
 *ls -la* Display current directory contents, including hidden files (starting with .). Use the long format.
+# 5. I love numbers
+*ls -nla* Display current directory contents using digits only
