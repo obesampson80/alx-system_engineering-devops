@@ -24,3 +24,5 @@
 *ls -la . .. /root* List files in multiple folders in long format including hidding files
 # 12. File type
 *file /tmp/iamafile*  a script that prints the type of the file named iamafile
+# 13. We are symbols, and inhabit symbols
+*ln -s /bin/ls __ls__* Creating a symbolic link in the current working directory
