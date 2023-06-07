@@ -16,3 +16,5 @@
 *mv betty /tmp/my_first_directory*Move the file betty from /tmp/ to /tmp/my first directory.
 # 8. Bye bye Betty
 *rm /tmp/my_first_directory/betty* delete the file betty
+# 9. Bye bye My first directory
+*rmdir /tmp/my_first_directory* Delete the directory
