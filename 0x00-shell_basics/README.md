@@ -18,3 +18,5 @@
 *rm /tmp/my_first_directory/betty* delete the file betty
 # 9. Bye bye My first directory
 *rmdir /tmp/my_first_directory* Delete the directory
+# 10. Back to the future
+*cd ..* changes the working directory to the previous one.
