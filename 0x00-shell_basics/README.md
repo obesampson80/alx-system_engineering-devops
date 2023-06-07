@@ -20,3 +20,5 @@
 *rmdir /tmp/my_first_directory* Delete the directory
 # 10. Back to the future
 *cd ..* changes the working directory to the previous one.
+# 11. Lists
+*ls -la . .. /root* List files in multiple folders in long format including hidding files
