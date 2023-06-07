@@ -33,4 +33,4 @@
 # 16. Clean Emacs
 *rm *~* Create a script that deletes all files in the current working directory that end with the character
 # 17. Tree
-*mkdir welcome/to/ welcome/to/school* Creating multiple directories
+*mkdir welcome/ welcome/to/school* Creating multiple directories
