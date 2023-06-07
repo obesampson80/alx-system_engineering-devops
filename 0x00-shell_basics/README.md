@@ -26,3 +26,5 @@
 *file /tmp/iamafile*  a script that prints the type of the file named iamafile
 # 13. We are symbols, and inhabit symbols
 *ln -s /bin/ls __ls__* Creating a symbolic link in the current working directory
+# 14. Copy HTML files
+*cp -rua *html ../* Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
