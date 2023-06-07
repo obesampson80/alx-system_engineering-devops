@@ -22,3 +22,5 @@
 *cd ..* changes the working directory to the previous one.
 # 11. Lists
 *ls -la . .. /root* List files in multiple folders in long format including hidding files
+# 12. File type
+*file /tmp/iamafile*  a script that prints the type of the file named iamafile
