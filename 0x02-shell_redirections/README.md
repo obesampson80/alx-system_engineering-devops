@@ -4,4 +4,6 @@
 *echo "(Ôo)'* Write a script that displays a confused smiley "(Ôo)'.
 ## 2. Let's display a file
 *cat /etc/passwd* Display the content of the /etc/passwd file
+## 3. What about 2?
+*cat /etc/passwd /etc/hosts* Display the content of both files
 
