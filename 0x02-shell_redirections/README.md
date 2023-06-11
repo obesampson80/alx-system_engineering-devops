@@ -10,4 +10,6 @@
 *tail /etc/passwd* Display last 10 lines of the file /etc/passwd
 ## 5. I'd prefer the frst ones actually
 *head /etc/passwd* Display first 10 lines of /etc/passwd
+## 6. Line #2
+*cat iacta | head -3 | tail -1 Displays the third line of the file iacta
 
