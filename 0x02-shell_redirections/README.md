@@ -8,4 +8,6 @@
 *cat /etc/passwd /etc/hosts* Display the content of both files
 ## 4. Last lines of a file
 *tail /etc/passwd* Display last 10 lines of the file /etc/passwd
+## 5. I'd prefer the frst ones actually
+*head /etc/passwd* Display first 10 lines of /etc/passwd
 
