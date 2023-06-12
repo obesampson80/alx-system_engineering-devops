@@ -30,3 +30,5 @@
 * grep -i root /etc/passwd*
 ## 15. Count that word
 * grep -i bin /etc/passwd | wc -l*
+## 16. What's next?
+*grep -iA 3 root /etc/passwd*
