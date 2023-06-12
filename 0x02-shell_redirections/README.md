@@ -38,3 +38,5 @@
 *grep -i "^[a-z]" /etc/ssh/sshd_config*
 ## 19. A to Z
 * tr Ac Ze*
+## 20. Without C, you would live in hiago
+*tr -d cC*
