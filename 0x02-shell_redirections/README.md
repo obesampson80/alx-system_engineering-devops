@@ -40,3 +40,5 @@
 * tr Ac Ze*
 ## 20. Without C, you would live in hiago
 *tr -d cC*
+## 21. esreveR
+*rev*
