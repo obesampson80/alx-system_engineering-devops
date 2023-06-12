@@ -26,3 +26,5 @@
 *ls -t | head* Script that display 10 newest files
 ## 13. Unique
 * sort | uniq -u*
+## 14. It must be in that file
+* grep -i root /etc/passwd*
