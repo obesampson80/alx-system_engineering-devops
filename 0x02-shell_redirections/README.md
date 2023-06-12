@@ -24,3 +24,5 @@
 *find -mindepth 1 -type d | wc -l* Counts the number of directories and subdirectories in the current directory excluding current and parent directories
 ## 12. What's new
 *ls -t | head* Script that display 10 newest files
+## 13. Unique
+* sort | uniq -u*
