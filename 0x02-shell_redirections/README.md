@@ -34,3 +34,5 @@
 *grep -iA 3 root /etc/passwd*
 ## 17. I hate bins
 *grep -iv bin /etc/passwd*
+## 18. Letters only please
+*grep -i "^[a-z]" /etc/ssh/sshd_config*
