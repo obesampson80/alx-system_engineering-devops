@@ -32,3 +32,5 @@
 * grep -i bin /etc/passwd | wc -l*
 ## 16. What's next?
 *grep -iA 3 root /etc/passwd*
+## 17. I hate bins
+*grep -iv bin /etc/passwd*
