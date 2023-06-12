@@ -42,3 +42,5 @@
 *tr -d cC*
 ## 21. esreveR
 *rev*
+## 22. Users and home directories sorted
+*cut -d':' -f1,6 /etc/passwd | sort*
