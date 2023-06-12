@@ -44,3 +44,5 @@
 *rev*
 ## 22. Users and home directories sorted
 *cut -d':' -f1,6 /etc/passwd | sort*
+## 23. Noise makers empty
+*find . -empty printf "%f\n"*
