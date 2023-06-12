@@ -22,3 +22,5 @@
 *find . -name '*js' -type f -delete* a script that deletes all the regular files (not the directories) with a .js
 ## 11. Directories
 *find -mindepth 1 -type d | wc -l* Counts the number of directories and subdirectories in the current directory excluding current and parent directories
+## 12. What's new
+*ls -t | head* Script that display 10 newest files
