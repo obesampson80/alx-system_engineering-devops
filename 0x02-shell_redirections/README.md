@@ -46,3 +46,5 @@
 *cut -d':' -f1,6 /etc/passwd | sort*
 ## 23. Noise makers empty
 *find . -empty printf "%f\n"*
+## 24. 101-gifs
+*find . -name \*.gif -type f -printf "%f\n" | LC_COLLATE=C sort --ignore-case | rev | cut -c 5- | rev
