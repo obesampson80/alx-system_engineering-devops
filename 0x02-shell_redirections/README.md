@@ -18,3 +18,5 @@
 *ls -la > ls_cwd_content* Writes to a file ls_cwd_content
 ## 9. Duplicate last line
 * cat -en "" | tail -1 iacta >> iacta* Duplicates the last line of the file iacta
+## 10. No more javascript
+*find . -name '*js' -type f -delete* a script that deletes all the regular files (not the directories) with a .js
