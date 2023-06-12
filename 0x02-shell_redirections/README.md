@@ -28,3 +28,5 @@
 * sort | uniq -u*
 ## 14. It must be in that file
 * grep -i root /etc/passwd*
+## 15. Count that word
+* grep -i bin /etc/passwd | wc -l*
