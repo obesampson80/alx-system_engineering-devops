@@ -14,4 +14,6 @@
 *cat iacta | head -3 | tail -1 Displays the third line of the file iacta
 ## 7. It is a good file that cuts iron without making a noise
 *echo "Best School"> file_name" 
+## 8. Save current state of directory
+*ls -la > ls_cwd_content* Writes to a file ls_cwd_content
 
