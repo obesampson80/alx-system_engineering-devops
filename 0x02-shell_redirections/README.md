@@ -16,4 +16,5 @@
 *echo "Best School"> file_name" 
 ## 8. Save current state of directory
 *ls -la > ls_cwd_content* Writes to a file ls_cwd_content
-
+## 9. Duplicate last line
+* cat -en "" | tail -1 iacta >> iacta* Duplicates the last line of the file iacta
