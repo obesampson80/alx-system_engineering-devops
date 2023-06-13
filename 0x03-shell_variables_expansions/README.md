@@ -22,3 +22,5 @@ echo $((POWER/DIVIDE))
 echo "$((2#$BINARY))"
 #11. Binary to decimal
 echo "$((2#$BINARY))"
+#12. Combinations
+printf "%s\n" {a..z}{a..z} | grep -v "oo"
