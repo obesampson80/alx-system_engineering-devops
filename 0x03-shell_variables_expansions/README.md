@@ -26,3 +26,5 @@ echo "$((2#$BINARY))"
 printf "%s\n" {a..z}{a..z} | grep -v "oo"
 #13. Floats
 printf "%.2f\n" $NUM
+#14. Decimal to hexadecimal
+printf "%x\n" $DECIMAL
