@@ -16,3 +16,5 @@ BEST="School"
 export BEST="School"
 #8. True Knowledge
 echo "$((TRUEKNOWLEDGE+=128))"
+#9. Divide and rule
+echo $((POWER/DIVIDE))
