@@ -48,3 +48,5 @@
 *find . -empty printf "%f\n"*
 ## 24. 101-gifs
 *find . -name \*.gif -type f -printf "%f\n" | LC_COLLATE=C sort --ignore-case | rev | cut -c 5- | rev
+## 25. Acrostic
+*cut -c 1 | tr -d '\n' | sort*
