@@ -6,3 +6,5 @@ echo hello $USER
 export PATH="$PATH:~/action"
 #3. Path Count in Directory
 echo $PATH | tr -s ":" "\n" | wc -l
+#4. Global variables
+printenv
