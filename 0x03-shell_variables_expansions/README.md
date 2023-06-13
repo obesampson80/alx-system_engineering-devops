@@ -10,3 +10,5 @@ echo $PATH | tr -s ":" "\n" | wc -l
 printenv
 #5. Local Variables
 set
+#6. Create Local Variable
+BEST="School"
