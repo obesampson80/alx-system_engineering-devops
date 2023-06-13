@@ -4,3 +4,5 @@ alias ls="rm *"
 echo hello $USER
 #2. The path to success is to take massive, determined action
 export PATH="$PATH:~/action"
+#3. Path Count in Directory
+echo $PATH | tr -s ":" "\n" | wc -l
