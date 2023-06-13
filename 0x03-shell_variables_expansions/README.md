@@ -8,3 +8,5 @@ export PATH="$PATH:~/action"
 echo $PATH | tr -s ":" "\n" | wc -l
 #4. Global variables
 printenv
+#5. Local Variables
+set
