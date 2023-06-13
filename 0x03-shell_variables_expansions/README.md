@@ -18,3 +18,5 @@ export BEST="School"
 echo "$((TRUEKNOWLEDGE+=128))"
 #9. Divide and rule
 echo $((POWER/DIVIDE))
+#10. Love exponent breath
+echo "$((2#$BINARY))"
