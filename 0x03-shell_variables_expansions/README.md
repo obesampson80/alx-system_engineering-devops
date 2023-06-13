@@ -24,3 +24,5 @@ echo "$((2#$BINARY))"
 echo "$((2#$BINARY))"
 #12. Combinations
 printf "%s\n" {a..z}{a..z} | grep -v "oo"
+#13. Floats
+printf "%.2f\n" $NUM
