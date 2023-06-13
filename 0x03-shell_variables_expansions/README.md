@@ -20,3 +20,5 @@ echo "$((TRUEKNOWLEDGE+=128))"
 echo $((POWER/DIVIDE))
 #10. Love exponent breath
 echo "$((2#$BINARY))"
+#11. Binary to decimal
+echo "$((2#$BINARY))"
