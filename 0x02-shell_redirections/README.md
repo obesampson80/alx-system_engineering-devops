@@ -50,3 +50,5 @@
 *find . -name \*.gif -type f -printf "%f\n" | LC_COLLATE=C sort --ignore-case | rev | cut -c 5- | rev
 ## 25. Acrostic
 *cut -c 1 | tr -d '\n' | sort*
+## 26. The biggest fan
+cut -f1 -d$'\t' | sort | uniq -c | tr -s ' ' | sort -t' ' -k1 -nr | head -11 | cut -d' ' -f3
