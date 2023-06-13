@@ -30,3 +30,5 @@ printf "%.2f\n" $NUM
 printf "%x\n" $DECIMAL
 #15. Rot13 Encryption
 tr 'a-zA-Z' 'n-za-mN-ZA-M'
+#16. Odd
+cat -n | grep [13579][[:space:]] | tr -s ' ' | cut -f2
