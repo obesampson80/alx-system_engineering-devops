@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name \*.gif -type f -printf "%f\n" | LC_COLLATE=C sort --ignore-case --dictionary-order | rev | cut -c 5- | rev
+find . -iname \*.gif -type f -printf "%f\n" | LC_COLLATE=C sort -f --ignore-case --dictionary-order | rev | cut -c 5- | rev
