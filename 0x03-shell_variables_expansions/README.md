@@ -12,3 +12,4 @@ printenv
 set
 #6. Create Local Variable
 BEST="School"
+#7. Global variable creation
