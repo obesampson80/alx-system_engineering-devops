@@ -13,3 +13,6 @@ set
 #6. Create Local Variable
 BEST="School"
 #7. Global variable creation
+export BEST="School"
+#8. True Knowledge
+echo "$((TRUEKNOWLEDGE+=128))"
