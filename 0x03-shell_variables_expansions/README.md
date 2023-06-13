@@ -28,3 +28,5 @@ printf "%s\n" {a..z}{a..z} | grep -v "oo"
 printf "%.2f\n" $NUM
 #14. Decimal to hexadecimal
 printf "%x\n" $DECIMAL
+#15. Rot13 Encryption
+tr 'a-zA-Z' 'n-za-mN-ZA-M'
