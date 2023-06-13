@@ -32,3 +32,5 @@ printf "%x\n" $DECIMAL
 tr 'a-zA-Z' 'n-za-mN-ZA-M'
 #16. Odd
 cat -n | grep [13579][[:space:]] | tr -s ' ' | cut -f2
+#17. Water and stir
+printf "%o\n" $((5#`echo $WATER | tr 'water' '01234'` + 5#`echo $STIR | tr 'stir.' '01234'`)) | tr '01234567' 'behlnort'
